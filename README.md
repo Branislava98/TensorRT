@@ -51,9 +51,7 @@ sudo apt-get install libnvinfer-bin=${version} libnvinfer-dev=${version} libnvin
 
 sudo apt-mark hold libnvinfer-bin libnvinfer-dev libnvinfer-dispatch-dev libnvinfer-dispatch10 libnvinfer-headers-dev libnvinfer-headers-plugin-dev libnvinfer-lean-dev libnvinfer-lean10 libnvinfer-plugin-dev libnvinfer-plugin10 libnvinfer-samples libnvinfer-vc-plugin-dev libnvinfer-vc-plugin10 libnvinfer10 libnvonnxparsers-dev libnvonnxparsers10 python3-libnvinfer-dev python3-libnvinfer-dispatch python3-libnvinfer-lean python3-libnvinfer tensorrt-dev tensorrt-libs tensorrt
 ```
-If you want to upgrade to the latest version of TensorRT or the newest version of CUDA, you can unhold the packages using the following command.
 ```bash
-sudo apt-mark unhold libnvinfer-bin libnvinfer-dev libnvinfer-dispatch-dev libnvinfer-dispatch10 libnvinfer-headers-dev libnvinfer-headers-plugin-dev libnvinfer-lean-dev libnvinfer-lean10 libnvinfer-plugin-dev libnvinfer-plugin10 libnvinfer-samples libnvinfer-vc-plugin-dev libnvinfer-vc-plugin10 libnvinfer10 libnvonnxparsers-dev libnvonnxparsers10 python3-libnvinfer-dev python3-libnvinfer-dispatch python3-libnvinfer-lean python3-libnvinfer tensorrt-dev tensorrt-libs tensorrt
 dpkg -l | grep TensorRT
 ```
 Locate your TensorRT files and copy `tensorrt.so`, `tensorrt_lean.so` and `tensorrt_dispatch.so` from `/usr/lib/python$PYTHON_VERSION/dist-packages/` to `/usr/local/lib/python$PYTHON_VERSION/dist-packages/`.
