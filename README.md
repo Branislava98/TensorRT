@@ -31,7 +31,8 @@ pip install -r requirements.txt
 
 [Download](https://developer.nvidia.com/tensorrt) the TensorRT local repo file that matches the Ubuntu version and CPU architecture that you are using.
 
-Install TensorRT from the Debian local repo package. Replace ubuntuxx04, 10.x.x, and cuda-x.x with your specific OS, TensorRT, and CUDA versions. For ARM SBSA and JetPack users, replace amd64 with arm64. JetPack users also need to replace nv-tensorrt-local-repo with nv-tensorrt-local-tegra-repo.
+Install TensorRT from the Debian local repo package. Replace ubuntuxx04, 10.x.x, and cuda-x.x with your specific OS, TensorRT, and CUDA versions. For ARM SBSA and JetPack users, replace amd64 with arm64. JetPack users also need to replace `nv-tensorrt-local-repo`
+ with `nv-tensorrt-local-tegra-repo`.
 
 ```bash
 os="ubuntuxx04"
@@ -55,7 +56,7 @@ If you want to upgrade to the latest version of TensorRT or the newest version o
 sudo apt-mark unhold libnvinfer-bin libnvinfer-dev libnvinfer-dispatch-dev libnvinfer-dispatch10 libnvinfer-headers-dev libnvinfer-headers-plugin-dev libnvinfer-lean-dev libnvinfer-lean10 libnvinfer-plugin-dev libnvinfer-plugin10 libnvinfer-samples libnvinfer-vc-plugin-dev libnvinfer-vc-plugin10 libnvinfer10 libnvonnxparsers-dev libnvonnxparsers10 python3-libnvinfer-dev python3-libnvinfer-dispatch python3-libnvinfer-lean python3-libnvinfer tensorrt-dev tensorrt-libs tensorrt
 dpkg -l | grep TensorRT
 ```
-Locate your TensorRT files and copy tensorrt.so tensorrt_lean.so and tensorrt_dispatch.so from /usr/lib/python$PYTHON_VERSION/dist-packages/ to /usr/local/lib/python$PYTHON_VERSION/dist-packages/
+Locate your TensorRT files and copy `tensorrt.so`, `tensorrt_lean.so` and `tensorrt_dispatch.so` from `/usr/lib/python$PYTHON_VERSION/dist-packages/` to `/usr/local/lib/python$PYTHON_VERSION/dist-packages/`.
 
 ```bash
 sudo find / -name "*tensorrt*"
