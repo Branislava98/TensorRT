@@ -67,7 +67,7 @@ sudo cp -r /usr/lib/python$PYTHON_VERSION/dist-packages/tensorrt_dispatch /usr/l
 ```
 ### Step 5: Download pre-trained models
 
-Download pre-trained models [disastereye](https://drive.google.com/file/d/1c75OmjyS5bLFso2nZ4aeoLCdq_5pRN4p/view?usp=sharing), [dfan](https://drive.google.com/file/d/1yzFPfQRS85Vl2fLvXVXx_g0Lsl1TtbuS/view?usp=sharing), [aider](https://drive.google.com/file/d/1CR_Hbk4kaPymMoWAUlst2DlfJOwPN2bD/view?usp=sharing) and put them into directory models.
+Download pre-trained models [disastereye](https://drive.google.com/file/d/1c75OmjyS5bLFso2nZ4aeoLCdq_5pRN4p/view?usp=sharing), [dfan](https://drive.google.com/file/d/1yzFPfQRS85Vl2fLvXVXx_g0Lsl1TtbuS/view?usp=sharing), [aider](https://drive.google.com/file/d/1CR_Hbk4kaPymMoWAUlst2DlfJOwPN2bD/view?usp=sharing) and put them into models directory.
 
 Run the following commands to create TensorRT engines:
 ```bash
