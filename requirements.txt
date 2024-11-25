@@ -1,0 +1,7 @@
+numpy==1.26.4
+torch==2.5.1+cu121
+torchvision==0.20.1+cu121
+Pillow==11.0.0
+pycuda==12.2.0
+# TensorRT doesn't have a pip package, so you may need to install it manually
+# See: https://docs.nvidia.com/deeplearning/tensorrt/install-guide/index.html
