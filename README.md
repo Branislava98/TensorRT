@@ -1,6 +1,6 @@
 # Disaster Management Project
 
-This project focuses on real-time disaster management using UAV-assisted edge computing. It leverages an optimized Swin Transformer for aerial image classification, integrating advanced preprocessing and quantization techniques to ensure efficient deployment on resource-constrained devices. Moreover, to tackle the relevance of the optimized model in real-world scenarios, we introduce a novel database of disaster cases taken by UAVs and individuals on sight. The dataset can be found here: 
+This project focuses on real-time disaster management using UAV-assisted edge computing. It leverages an optimized Swin Transformer for aerial image classification, integrating advanced preprocessing and quantization techniques to ensure efficient deployment on resource-constrained devices. Moreover, to tackle the relevance of the optimized model in real-world scenarios, we introduce a novel database of disaster cases taken by UAVs and individuals on sight. The dataset can be found [here](https://drive.google.com/drive/folders/168zMH6BiK894knmwJpu44zqLAZI_mI75?usp=sharing): 
 
 The following guidelines will help you install TensorRT on your device. If you would like a quick test, you can just run our [Google Colab Notebook](https://github.com/Branislava98/TensorRT/blob/main/TensortRT.ipynb) (do not forget to update paths for images and models).
 
