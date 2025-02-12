@@ -2,7 +2,7 @@
 
 This project focuses on real-time disaster management using UAV-assisted edge computing. It leverages an optimized Swin Transformer for aerial image classification, integrating advanced preprocessing and quantization techniques to ensure efficient deployment on resource-constrained devices. Moreover, to tackle the relevance of the optimized model in real-world scenarios, we introduce a novel database of disaster cases taken by UAVs and individuals on sight. The dataset can be found here: 
 
-The following guidelines will help you install TensorRT on your device. If you would like a quick test, you can just run our Google Colab Notebook.
+The following guidelines will help you install TensorRT on your device. If you would like a quick test, you can just run our [Google Colab Notebook]() (do not forget to update paths for images and models).
 
 ## Requirements
 - Python 3.10.12
